@@ -28,8 +28,8 @@ public class ImmobilieService extends Service<Immobilie> {
         return immobilienmakler.getId(id);
     }
 
-    @Override       //TODO id nicht nochmal / neu setzen, wenn editiert wird.
-    public void merge(Immobilie entity) throws ImmobilienException {
+    @Override
+    public void merge(Immobilie entity) throws ImmobilienException{
 
         if(entity.getIdentifikationsNr() != null){
             entity.setIdentifikationsNr(idCounter++);

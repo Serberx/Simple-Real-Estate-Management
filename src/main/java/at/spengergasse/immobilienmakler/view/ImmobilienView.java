@@ -61,7 +61,8 @@ public class ImmobilienView {
 //
         //Center
         tfId = new TextField();
-        tfId.setEditable(true);
+        tfId.setEditable(false);
+        tfId.isDisable();
 
         tfAdresse = new TextField();
         tfAdresse.setEditable(true);

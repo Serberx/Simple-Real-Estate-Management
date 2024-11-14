@@ -73,11 +73,15 @@ public class WohnhausView {
         cbKategorie.getItems().addAll('A','B','C','D');
         cbKategorie.setValue('A');
 
-        slFlaeche = new Slider(at.spengergasse.immobilienmakler.model.Constants.MIN_FLAECHE_WOHNHAUS, at.spengergasse.immobilienmakler.model.Constants.MAX_FLAECHE_WOHNHAUS, at.spengergasse.immobilienmakler.model.Constants.MIN_FLAECHE_WOHNHAUS);
+        slFlaeche = new Slider(at.spengergasse.immobilienmakler.model.Constants.MIN_FLAECHE_WOHNHAUS,
+                at.spengergasse.immobilienmakler.model.Constants.MAX_FLAECHE_WOHNHAUS,
+                at.spengergasse.immobilienmakler.model.Constants.MIN_FLAECHE_WOHNHAUS);
         slFlaeche.setShowTickLabels(true);
         slFlaeche.setMajorTickUnit(1250);
 
-        slEinheitswert = new Slider(at.spengergasse.immobilienmakler.model.Constants.MIN_EINHEITSWERT, at.spengergasse.immobilienmakler.model.Constants.MAX_EINHEITSWERT, at.spengergasse.immobilienmakler.model.Constants.MIN_EINHEITSWERT);
+        slEinheitswert = new Slider(at.spengergasse.immobilienmakler.model.Constants.MIN_EINHEITSWERT,
+                at.spengergasse.immobilienmakler.model.Constants.MAX_EINHEITSWERT,
+                at.spengergasse.immobilienmakler.model.Constants.MIN_EINHEITSWERT);
         slEinheitswert.setShowTickLabels(true);
         slEinheitswert.setMajorTickUnit(12497500);
 

@@ -39,7 +39,7 @@ public class WohnhausViewModel {
     }
     //InitProperties
     public void initProperties(){
-    id = new SimpleStringProperty("Wird automatisch gesetzt!");
+    id = new SimpleStringProperty(null);
     adresse = new SimpleStringProperty("Spengergasse 5, 1050 Wien");
     flaeche = new SimpleDoubleProperty(50);
     kategorie = new SimpleObjectProperty<>('A');

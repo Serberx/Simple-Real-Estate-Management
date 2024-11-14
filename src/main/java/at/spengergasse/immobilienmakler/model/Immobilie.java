@@ -11,7 +11,7 @@ public abstract class Immobilie implements Comparable<Immobilie>, Serializable  
     @Serial
     private static final long serialVersionUID = -8990860474646662318L;
 
-    private static Integer zaehler = 0;
+    private static Integer zaehler = 1;
 
     private int identifikationsNr;
     private String adresse;
@@ -205,7 +205,13 @@ public abstract class Immobilie implements Comparable<Immobilie>, Serializable  
 
     public void setIdentifikationsNr(Integer id) throws ImmobilienException{
         if(id != null){
-            this.identifikationsNr = id;
+            if(getIdentifikationsNr() == 0){
+                this.identifikationsNr = zaehler++;
+
+            }
+            if(getIdentifikationsNr() > 0){
+            this.identifikationsNr = getIdentifikationsNr();
+            }
         }else{
             throw new ImmobilienException("Null-Ref bei setIdendifikationsnNR()");
         }

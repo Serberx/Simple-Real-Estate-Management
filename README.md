@@ -1,4 +1,4 @@
-# Immobilienmakler - Real Estate Management Exercise
+# Immobilienverwaltung - Real Estate Management Exercise
 
 This project is a Java-based exercise for implementing a real estate management system, focusing on handling different
 types of properties, calculating values, and storing data using various persistence formats. This system is intended as
@@ -12,12 +12,11 @@ a practice for handling object-oriented design, file I/O, and design patterns.
 - [Tasks](#tasks)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
-The **Immobilienmakler** (Real Estate Manager) system enables users to add, remove, and manage various types of real
+The **Immobilienverwaltung** (Real Estate Manager) system enables users to add, remove, and manage various types of real
 estate objects, calculate property values, and store the data in multiple formats, using both binary and text file
 persistence.
 
