@@ -1,0 +1,18 @@
+Stelle   0-7: Wohnhaus
+Stelle     9: 2
+Stelle 11-38: Quellenstrasse 33, 5699 Wien
+Stelle 40-44: 300.0
+Stelle    46: B
+Stelle 48-54: 10000.0
+Stelle   0-7: Wohnhaus
+Stelle     9: 1
+Stelle 11-36: Hohlweggasse 22, 1154 Wien
+Stelle 38-42: 200.0
+Stelle    44: C
+Stelle 46-52: 10000.0
+Stelle   0-7: Wohnhaus
+Stelle     9: 0
+Stelle 11-34: Fasangasse 11, 1030 Wien
+Stelle 36-40: 100.0
+Stelle    42: A
+Stelle 44-50: 10000.0

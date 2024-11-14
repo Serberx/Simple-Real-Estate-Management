@@ -1,0 +1,18 @@
+Stelle 0-8: Klasse: Wohnhaus
+Stelle 9-10: Identifikationsnummer: 2
+Stelle 11-39: Adresse: Quellenstrasse 30, 5699 Wien
+Stelle 40-45: Fläche: 300.0
+Stelle 46-47: Kategorie: B
+Stelle 48-55: Einheitswert: 10000.0
+Stelle 0-8: Klasse: Wohnhaus
+Stelle 9-10: Identifikationsnummer: 1
+Stelle 11-37: Adresse: Hohlweggasse 20, 1154 Wien
+Stelle 38-43: Fläche: 200.0
+Stelle 44-45: Kategorie: C
+Stelle 46-53: Einheitswert: 10000.0
+Stelle 0-8: Klasse: Wohnhaus
+Stelle 9-10: Identifikationsnummer: 0
+Stelle 11-35: Adresse: Fasangasse 10, 1030 Wien
+Stelle 36-41: Fläche: 100.0
+Stelle 42-43: Kategorie: A
+Stelle 44-51: Einheitswert: 10000.0
