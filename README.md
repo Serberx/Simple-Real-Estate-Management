@@ -1,4 +1,4 @@
-# Immobilienverwaltung - Real Estate Management Exercise
+# Immobilienverwaltung - Real Estate Management
 
 This project is a Java-based exercise for implementing a real estate management system, focusing on handling different
 types of properties, calculating values, and storing data using various persistence formats. This system is intended as
