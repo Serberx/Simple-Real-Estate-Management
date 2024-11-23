@@ -1,6 +1,6 @@
 # Immobilienverwaltung - Real Estate Management
 
-This project is a Java-based exercise for implementing a real estate management system, focusing on handling different
+This project is a Java and JavaFx-based exercise for implementing a real estate management system, focusing on handling different
 types of properties, calculating values, and storing data using various persistence formats. This system is intended as
 a practice for handling object-oriented design, file I/O, and design patterns.
 
